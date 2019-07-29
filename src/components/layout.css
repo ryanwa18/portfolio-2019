@@ -7,6 +7,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  color: #fff;
 }
 article,
 aside,
@@ -199,7 +201,6 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -619,4 +620,8 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.programming {
+  font-family: "Monaco", "Lucida Console", monospace;
 }
